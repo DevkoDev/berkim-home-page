@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@web3modal/ethers": "^5.0.3",
+    "vite": "^5.3.1"
+  },
+  "scripts":{
+    "dev":"vite --host",
+    "build":"vite build --outDir=./mint-new"
+  }
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Berghan;
+  src: url(../fonts/Berghan-Regular.otf);
+}
+
+.font-berghan {
+  font-family: Berghan;
+}
+
+.fwei-200 {
+  font-weight: 200 !important;
+}
+.fwei-300 {
+  font-weight: 300 !important;
+}
+.fwei-350 {
+  font-weight: 350 !important;
+}
+.fwei-400 {
+  font-weight: 400 !important;
+}
+.fwei-500 {
+  font-weight: 500 !important;
+}
+.fwei-600 {
+  font-weight: 600 !important;
+}
+.fwei-700 {
+  font-weight: 700 !important;
+}
+.fwei-800 {
+  font-weight: 800 !important;
+}

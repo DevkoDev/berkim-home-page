@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berkim mint</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./fonts/clashDisplay/css/clash-display.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+  </head>
+
+  <body style="background-color: #000000">
+    <div id="section1">
+      <div class="container-fluid container-xxl text-light px-3 px-xl-4">
+        <div class="row">
+          <nav class="navbar navbar-expand-md border-body text-center" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand h1" href="/"><img src="./images/logo.png" width="75px" /></a>
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item mb-0 py-2 py-md-none">
+                    <a class="nav-link active h3 mb-0 mx-2" href="/"><h5 class="mb-0">Home</h5></a>
+                  </li>
+                  <li class="nav-item mb-0 py-2 py-md-none">
+                    <a class="nav-link h3 mb-0 mx-2" href="/mint/"><h5 class="mb-0">Mint</h5></a>
+                  </li>
+                  <li class="nav-item mb-0 py-2 py-md-none">
+                    <a class="nav-link h3 mb-0 mx-2" aria-current="page" href="/stake/"><h5 class="mb-0">Stake</h5></a>
+                  </li>
+                  <li class="nav-item mb-0 text-center py-2 py-md-none">
+                    <w3m-button class="m-auto"></w3m-button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="container-fluid container-xxl text-light px-3 px-xl-4">
+        <div class="landingCard position-relative">
+          <div class="position-absolute d-flex bottom-0 h-100 w-100 justify-content-center d-none d-md-block">
+            <div class="h-100 justify-content-center d-flex">
+              <img src="./images/landing-image.png" class="h-100 pt-5" />
+            </div>
+          </div>
+          <div class="row px-4 pt-4">
+            <div class="col-7 col-md-4 col-xl-3">
+              <h4 class="text-grey pt-md-3 ps-md-3" style="line-height: 32px">Join the elite fashion revolution with only 1984 exclusive NFTs available</h4>
+            </div>
+            <div class="col-12">
+              <div class="row justify-content-center">
+                <div class="col-11 d-md-none">
+                  <img src="./images/landing-image.png" class="w-100 pt-3" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 text-center d-none d-md-block">
+              <div class="display-1 font-berghan landingBerkim">Berkim</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-xxl text-light px-3 mt-5 text-center font-berghan">
+      <div class="row justify-content-center py-5">
+        <div class="col-12 col-md-8 py-5">
+          <h4 class="px-4 scaleh4">FRACSHION <span class="text-half-grey">brings you</span> Fractional Fashion, <span class="text-half-grey">allowing you to invest in iconic</span> designer handbags <span class="text-half-grey">without needing the full capital</span></h4>
+          <h4 class="px-4 scaleh4"><span class="text-half-grey">With</span> FRACSHION, <span class="text-half-grey">luxury handbag ownership becomes</span> achievable <span class="text-half-grey">for all, transforming how you experience luxury fashion.</span></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="splide pb-5" id="splide1" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/1/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/2/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/3/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/4/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/5/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/6/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/7/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/8/image" /></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex flex-row text-start align-items-center justify-content-center py-5">
+        <h6 style="font-size: 120px" class="pink-glow me-2">1984</h6>
+        <h4 class="text-grey fwei-400">Curated<br />Exclusive<br />NFTs</h4>
+      </div>
+      <div class="splide pt-5 d-none d-md-block" id="splide2" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/1/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/2/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/3/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/4/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/5/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/6/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/7/image" /></li>
+            <li class="splide__slide"><img src="https://api.berkim.io/api/token/8/image" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-xxl text-light px-5 mt-5">
+      <div class="row justify-content-md-start">
+        <div class="col-12 d-flex flex-row justify-content-between">
+          <h1 class="display-3 font-berghan text-white">
+            Discover the<br />
+            advantages
+          </h1>
+          <div class="d-flex align-items-end mb-md-4">
+            <button class="btn pinkButton">Get yours now</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-5 col-xxl-6 mt-5">
+          <div class="d-flex flex-row align-items-center py-2">
+            <img src="./images/star.svg" class="me-3 mb-auto" />
+            <h4 class="m-0 text-half-grey">Member pass</h4>
+          </div>
+          <div class="d-flex flex-row align-items-center py-2">
+            <img src="./images/star.svg" class="me-3 mb-auto" />
+            <h4 class="m-0 text-half-grey">Access to private exclusive show and museum</h4>
+          </div>
+          <div class="d-flex flex-row align-items-center py-2">
+            <img src="./images/star.svg" class="me-3 mb-auto" />
+            <h4 class="m-0 text-half-grey">Eligible for future NFT project</h4>
+          </div>
+          <div class="d-flex flex-row align-items-center py-2">
+            <img src="./images/star.svg" class="me-3 mb-auto" />
+            <h4 class="m-0 text-half-grey">Future free credit for fahion accessories</h4>
+          </div>
+          <div class="d-flex flex-row align-items-center py-2">
+            <img src="./images/star.svg" class="me-3 mb-auto" />
+            <h4 class="m-0 text-half-grey">Hold and earn</h4>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-5 col-xxl-4 mt-md-5">
+          <div class="d-flex flex-row align-items-center py-2">
+            <img src="./images/star.svg" class="me-3 mb-auto" />
+            <h4 class="m-0 text-half-grey">Provit sharing form</h4>
+          </div>
+          <div class="d-flex flex-row align-items-center py-2">
+            <img src="./images/star.svg" class="me-3 mb-auto" />
+            <h4 class="m-0 text-half-grey">Each ofluxury good solid</h4>
+          </div>
+          <div class="d-flex flex-row align-items-center py-2">
+            <img src="./images/star.svg" class="me-3 mb-auto" />
+            <h4 class="m-0 text-half-grey">IP collaboration</h4>
+          </div>
+          <div class="d-flex flex-row align-items-center py-2">
+            <img src="./images/star.svg" class="me-3 mb-auto" />
+            <h4 class="m-0 text-half-grey">Exclusive perks such as discounts htels, yacht, jets, luxury events</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="roadmapSection" style="min-height: 80vh">
+      <div class="container-fluid container-xxl text-light px-4 px-md-5 mt-5">
+        <h1 class="display-3 font-berghan text-md-center">Our Vision for the Future</h1>
+        <div class="d-flex justify-content-center mt-5 position-relative">
+          <h1 class="display-1 position-absolute text-center font-berghan" id="roadmapWord">Roadmap</h1>
+
+          <div class="roadmapCard position-absolute" id="roadmap1">
+            <h4 class="mb-0 text-center text-grey py-md-2 fwei-400">#Phase 1</h4>
+            <h1 class="display-1 font-berghan text-pink py-md-2 fwei-400">Whitelist 84 NFT</h1>
+            <h4 class="text-grey py-md-2 fwei-400">Berkim unveiled its plan to revolutionize luxury bags at Token 2049 Dubai in April 2024. With 20+ years of experience, Berkim fights counterfeiting and promotes sustainability through blockchain-based Real-World Assets (RWA). The launch featured a whitelist of 84 exclusive NFTs for early supporters.</h4>
+          </div>
+
+          <div class="roadmapCard position-absolute" id="roadmap2">
+            <h4 class="mb-0 text-center text-grey py-md-2 fwei-400">#Phase 2</h4>
+            <h1 class="display-1 font-berghan text-pink py-md-2 fwei-400">Launch 900 NFT</h1>
+            <h4 class="text-grey py-md-2 fwei-400">Berkim is thrilled to launch 900 NFTs to make luxury accessible. We showcased our innovative approach at Token 2049 Singapore in September 2024 and have holders in multiple countries.</h4>
+          </div>
+
+          <div class="roadmapCard position-absolute" id="roadmap3">
+            <h4 class="mb-0 text-center text-grey py-md-2 fwei-400">#Phase 3</h4>
+            <h1 class="display-1 font-berghan text-pink py-md-2 fwei-400">Launch 1000 NFTs</h1>
+            <h4 class="text-grey py-md-2 fwei-400">Berkim is launching 1000 NFTs soon, with new fashion collaborations. We’ll introduce fractionalized ownership of luxury watches. Stay tuned for innovative lifestyle product solutions. "We’re Here for Your Firsts, Every Moment Counts.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-xxl mt-5" id="nft-sections">
+      <div class="row">
+        <div class="col-12">
+          <div class="position-relative nfts-float">
+            <img src="./images/nfts/1.avif" id="nft-img-1" class="position-absolute" />
+            <img src="./images/nfts/2.avif" id="nft-img-2" class="position-absolute" />
+            <img src="./images/nfts/3.avif" id="nft-img-3" class="position-absolute" />
+            <img src="./images/nfts/4.avif" id="nft-img-4" class="position-absolute" />
+            <img src="./images/nfts/5.avif" id="nft-img-5" class="position-absolute" />
+            <img src="./images/nfts/6.avif" id="nft-img-6" class="position-absolute" />
+            <img src="./images/nfts/7.avif" id="nft-img-7" class="position-absolute" />
+            <img src="./images/nfts/8.avif" id="nft-img-8" class="position-absolute" />
+            <img src="./images/nfts/9.avif" id="nft-img-9" class="position-absolute" />
+
+            <div class="w-100 position-absolute text-center justify-content-center align-items-center d-flex h-100 flex-column">
+              <h1 class="display-1 text-light font-berghan fwei-400 mt-md-5">Want a Slice of Berkim?</h1>
+              <h2 class="fwei-400" style="color: #878787">Own Berkim NFT</h2>
+              <br />
+              <a class="btn pinkButton">Mint Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid container-xxl text-light px-3 my-5">
+      <div class="row justify-content-center">
+        <div class="col-11 col-md-10 col-lg-8 col-xl-8">
+          <h1 class="text-white text-center font-berghan display-2 mb-5">FAQ</h1>
+          <div class="accordion" id="accordionExample" style="backdrop-filter: blur(5px)">
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="heading0">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-expanded="false" aria-controls="collapseOne">About BerKim</button>
+              </h2>
+              <div id="collapse0" class="accordion-collapse collapse" aria-labelledby="heading0" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Berkim is at the forefront of revolutionizing fashion with NFTs. Our curated collection of 1984 unique NFTs captures iconic moments in fashion history, democratizing access to fashion heritage and investment opportunities. We prioritize authenticity, community engagement, and learning, aiming to redefine the boundaries of creativity and accessibility in the fashion industry. Join us on a transformative journey where fashion meets technology, and where community and learning are
+                  central to every interaction.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseOne">How many BERKIM NFT are available for purchase?</button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                <div class="accordion-body">There are 1984 BERKIM NFT available for purchase, each representing a unique piece of fashion history within our curated collection.</div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseTwo">What’s the benefit of BERKIM holders?</button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  BERKIM holders enjoy a range of benefits, including: Access to Exclusive Fashion Assets: Dive into curated collection and explore iconic fashion moment in fashion history with oppurtunity in owning Investment Grade Physical Luxury Fashion Asset/ exclusive collectable on blockchain. Community Engagement: Join a vibrant community of fashion enthusiasts and investors. Learning Opportunities: Gain insights into fashion heritage and investment strategies through educational
+                  resources and community discussions.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseTwo">How will fractionalized fashion assets be conducted?</button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                <div class="accordion-body">Holders of BERKIM nfts will receive free airdrops of fractionalized fashion assets and periodic investment rewards when the value of these assets increases or they are sold in auctions. This allows holders to benefit from the appreciation of fashion assets through DEFI to own a part of the asset investment opportunities.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseTwo">Whats BERKIM TOKEN &amp; How do I get it?</button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                <div class="accordion-body">$Berkim Token are rewarded to Berkim NFT holders, The Berkim Tokens through airdrops for NFT holders and subsequent distribution through community updates.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseTwo">What are the different between BERKIM NFT &amp; $BERKIM TOKEN?</button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                <div class="accordion-body">BERKIM NFTs are unique digital artworks while $BERKIM tokens represent ownership of real-world asset through digital token.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapseTwo">Can you purchase $BERKIM tokens?</button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                <div class="accordion-body">$Berkim Tokens are exclusively reserved for owners of Berkim NFTs. These tokens investment oppurtunity are not available for sale to the general public at this time. However, the future availability of Berkim Tokens for purchase is uncertain.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="heading7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapseTwo">Are BERKIM NFT limited in supply?</button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                <div class="accordion-body">Yes, there are only 1984 BERKIM nft available for purchase, each corresponding to a unique piece of fashion history. Once all nfts are sold, no additional nfts will be created, making BERKIM nft a limited and exclusive asset.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="heading8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapseTwo">How will I receive updates and announcements about Berkim and $BERKIM tokens?</button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                <div class="accordion-body">To stay updated on the latest news, announcements, and events related to Berkim and $BERKIM tokens, we recommend joining our official social media channels, subscribing to our newsletter, and regularly visiting our website. This ensures you'll be the first to know about new releases, partnerships, and community initiatives.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100 overflow-hidden" style="background-color: rgba(244, 144, 248, 1); max-height: 450px">
+      <div class="container-fluid container-xxl px-3 py-3 text-black">
+        <div class="d-flex flex-row justify-content-between px-2">
+          <h4 class="fwei-400">© 2024 Berkim. All rights reserved.</h4>
+          <div class="d-flex flex-row align-items-center">
+            <h4 class="me-2 fwei-400 mb-0">Follow us on</h4>
+            <a href="#"><img class="ms-2" src="./images/insta.svg" width="24px" /></a>
+            <a href="#"><img class="ms-2" src="./images/x.svg" width="24px" /></a>
+          </div>
+        </div>
+        <div class="display-1 font-berghan footerBerkim">Berkim</div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.8.2/web3.min.js" integrity="sha512-Ls8WO4Esu7Jb9a92BfIp1Ftgl9t5Ncaa/6zKzpOkTGXW+dPcJcI4Yz2HR7cXY0YcfIAsL7R9Gqfbw8ERX8iYaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="module" src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      const splide = new Splide("#splide1", {
+        type: "loop",
+        drag: false,
+        focus: "center",
+        autoWidth: true,
+        autoScroll: {
+          speed: -1,
+          pauseOnHover: false,
+        },
+        pagination: false,
+        paginationKeyboard: false,
+        arrows: "",
+      });
+      const splide2 = new Splide("#splide2", {
+        type: "loop",
+        drag: false,
+        focus: "center",
+        autoWidth: true,
+        direction: "rtl",
+
+        autoScroll: {
+          speed: -1,
+          pauseOnHover: false,
+        },
+        pagination: false,
+        paginationKeyboard: false,
+        arrows: "",
+      });
+
+      splide.mount(window.splide.Extensions);
+      splide2.mount(window.splide.Extensions);
+
+      window.onload = (event) => {
+        ScrollTrigger.config({
+          autoRefreshEvents: "DOMContentLoaded, load, resize",
+        });
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.fromTo(
+          ".nfts-float",
+          { y: 150 },
+          {
+            y: -150,
+            scrollTrigger: {
+              trigger: "#nft-sections",
+              start: "top top",
+              end: "bottom top",
+              scrub: true,
+              markers: true,
+              id: "nftttttttttttttttttttttttt",
+            },
+            duration: 1,
+          }
+        );
+
+        const timeline = gsap.timeline({
+          scrollTrigger: {
+            trigger: "#section1",
+            start: "top top",
+            end: "+600",
+            id: "section1",
+            scrub: true,
+            pin: true,
+            //   markers: true,
+          },
+        });
+        timeline.fromTo(".landingBerkim", { color: "#454545", textShadow: "unset" }, { color: "#F490F8", textShadow: "0px 4px 16px #ed36b9" });
+
+        const timeline2 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".roadmapSection",
+            start: "top 10%",
+            end: "+8000",
+            id: "rrrrr",
+            scrub: true,
+            pin: true,
+            //  markers: true,
+          },
+        });
+        timeline2.fromTo("#roadmapWord", { opacity: 0 }, { opacity: 1 }).fromTo("#roadmap1", { rotate: "12deg", y: 900 }, { rotate: "-6deg", y: 0 }).fromTo("#roadmap2", { rotate: "-8deg", y: 900 }, { rotate: "4deg", y: 0 }).fromTo("#roadmap3", { rotate: "4deg", y: 900 }, { rotate: "-2deg", y: 0 });
+      };
+    </script>
+  </body>
+</html>

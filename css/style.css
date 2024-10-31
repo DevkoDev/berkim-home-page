@@ -1,0 +1,319 @@
+body {
+  font-family: "ClashDisplay-Variable" !important;
+}
+
+.text-half-grey {
+  color: #737373;
+}
+
+.text-grey {
+  color: #cfcccc;
+}
+
+.text-pink {
+  color: #e36fe8;
+}
+
+.pinkButton {
+  background-color: #e36fe8;
+  color: black;
+  border-radius: 0px;
+  padding: 6px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.pinkButton:hover {
+  background-color: #e36fe8;
+  color: #323131;
+}
+
+.pinkButton:disabled {
+  background-color: #737373;
+  color: #0d0d0d;
+}
+
+@media (min-width: 1200px) {
+  .container-xxl {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.landingCard {
+  background-color: #181818;
+  border-radius: 24px;
+  color: #454545;
+  left: 0 !important;
+}
+
+.landingBerkim {
+  margin-right: -2.5vw;
+  margin-left: -2.5vw;
+  padding-top: 5vw;
+  font-size: clamp(16px, 31vw, 602px);
+  line-height: 0.8;
+}
+
+.footerBerkim {
+  padding-top: 5vw;
+  font-size: clamp(16px, 31vw, 602px);
+  line-height: 0.8;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+CiAgPHBhdGggc3Ryb2tlPSJyZ2JhKDI0NCwgMTQ0LCAyNDgsIDEpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNNCA3aDIyTTQgMTVoMjJNNCAyM2gyMiIvPgo8L3N2Zz4K");
+}
+
+.scaleh4 {
+  font-size: clamp(20px, 6vw, 60px);
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.splide__slide img {
+  max-width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pink-glow {
+  text-shadow: 0px 4px 16px #ed36b9;
+  color: #f490f8;
+}
+
+.roadmapCard {
+  border-radius: 24px;
+  background-color: #2a2a2a;
+  border: 1px solid #f490f8;
+  box-shadow: 0px 4px 16px 0px rgba(237, 54, 185, 1);
+}
+
+.roadmapCard {
+  padding: 32px;
+  max-width: 770px;
+}
+.roadmapCard h1 {
+  font-size: 48px;
+}
+
+#roadmapWord {
+  z-index: -1;
+  color: #2a2a2a;
+}
+@media (max-width: 767.98px) {
+  #roadmapWord {
+    font-size: 20px;
+  }
+  .roadmapCard {
+    padding: 20px;
+  }
+  .roadmapCard h4 {
+    font-size: 16px;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .nfts-float div h1 {
+    font-size: 30px;
+  }
+
+  .nfts-float img:nth-child(1) {
+    width: 19.65%;
+    top: 10%;
+    left: 0%;
+    min-width: 133px;
+  }
+  .nfts-float img:nth-child(2) {
+    display: none;
+  }
+  .nfts-float img:nth-child(3) {
+    opacity: 0.4;
+    width: 6.94%;
+    max-width: 133.2px;
+    top: 26.55%;
+    right: 49.72%;
+    min-width: 74px;
+  }
+
+  .nfts-float img:nth-child(4) {
+    width: 19.65%;
+    max-width: 377px;
+    top: 13.78%;
+    left: unset;
+    right: 0%;
+    min-width: 133px;
+  }
+  .nfts-float img:nth-child(5) {
+    display: none;
+  }
+  .nfts-float img:nth-child(6) {
+    display: none;
+  }
+  .nfts-float img:nth-child(7) {
+    width: 19.65%;
+    max-width: 377px;
+    top: 58.75%;
+    left: 3%;
+    min-width: 133px;
+  }
+  .nfts-float img:nth-child(8) {
+    opacity: 0.2;
+    width: 6%;
+    max-width: 133.2px;
+    top: 65%;
+    left: 50%;
+    min-width: 74px;
+  }
+
+  .nfts-float img:nth-child(9) {
+    width: 19.65%;
+    max-width: 377px;
+    top: 50.6%;
+    right: 0%;
+    min-width: 133px;
+  }
+}
+
+/* md and up (768px and above) */
+@media (min-width: 768px) {
+  .nfts-float div h1 {
+    font-size: 60px;
+  }
+
+  .nfts-float img:nth-child(1) {
+    width: 19.65%;
+    max-width: 377px;
+    top: 13.78%;
+    left: 1.3%;
+  }
+  .nfts-float img:nth-child(2) {
+    opacity: 0.5;
+    width: 10%;
+    max-width: 192px;
+    top: 34%;
+    left: 25.1%;
+  }
+  .nfts-float img:nth-child(3) {
+    opacity: 0.2;
+    width: 6.94%;
+    max-width: 133.2px;
+    top: 26.55%;
+    left: 49.72%;
+  }
+
+  .nfts-float img:nth-child(4) {
+    width: 19.65%;
+    max-width: 377px;
+    top: 13.78%;
+    left: 58.68%;
+  }
+  .nfts-float img:nth-child(5) {
+    opacity: 0.5;
+    width: 10%;
+    max-width: 192px;
+    top: 21.69%;
+    left: 85.6%;
+  }
+  .nfts-float img:nth-child(6) {
+    opacity: 0.5;
+    width: 10%;
+    top: 63.72%;
+    max-width: 192px;
+    left: 1.2%;
+  }
+  .nfts-float img:nth-child(7) {
+    width: 19.65%;
+    max-width: 377px;
+    top: 58.75%;
+    left: 15.2%;
+  }
+  .nfts-float img:nth-child(8) {
+    opacity: 0.2;
+    width: 6.94%;
+    max-width: 133.2px;
+    top: 55.36%;
+    left: 58.19%;
+  }
+
+  .nfts-float img:nth-child(9) {
+    width: 19.65%;
+    max-width: 377px;
+    top: 50.6%;
+    left: 69.16%;
+  }
+}
+
+/* lg and up (992px and above) */
+@media (min-width: 992px) {
+  #roadmapWord {
+    font-size: 240px;
+  }
+  .nfts-float div h1 {
+    font-size: 80px;
+  }
+}
+
+/* xl and up (1200px and above) */
+@media (min-width: 1200px) {
+  #roadmapWord {
+    font-size: 300px;
+  }
+  .nfts-float div h1 {
+    font-size: 100px;
+  }
+}
+
+.nfts-float {
+  height: 61.4vw;
+  max-height: 1180px;
+  min-height: 520px;
+}
+/* xxl and up (1400px and above) */
+@media (min-width: 1400px) {
+}
+
+.accordion-body {
+  background-color: #1e1e1e;
+  color: #cfcccc;
+  border: unset;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.accordion-item {
+  background-color: #1e1e1e;
+  border-radius: 16px 16px 16px 16px !important;
+}
+
+.accordion-header {
+  border-radius: 16px 16px 16px 16px;
+}
+.accordion-button {
+  background-color: #1e1e1e;
+  color: #cfcccc;
+  border: unset;
+  border-radius: 16px 16px 16px 16px !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #1e1e1e;
+  color: #cfcccc;
+  border: unset;
+  border-radius: 16px 16px 0px 0px !important;
+}
+
+.accordion-button:focus {
+  border: unset;
+  box-shadow: unset;
+}
+.accordion-item {
+  border: unset;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDVWMTlNNSAxMkgxOSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUgMTJIMTkiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=");
+}
