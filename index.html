@@ -12,11 +12,11 @@
   </head>
 
   <body style="background-color: #000000">
-    <div id="section1">
+    <div id="section1" class="d-flex flex-column" style="min-height: 100vh">
       <div class="container-fluid container-xxl text-light px-3 px-xl-4">
         <div class="row">
           <nav class="navbar navbar-expand-md border-body text-center" data-bs-theme="dark">
-            <div class="container-fluid">
+            <div class="container-fluid z-1">
               <a class="navbar-brand h1" href="/"><img src="./images/logo.png" width="75px" /></a>
               <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,8 +41,8 @@
           </nav>
         </div>
       </div>
-      <div class="container-fluid container-xxl text-light px-3 px-xl-4">
-        <div class="landingCard position-relative">
+      <div class="container-fluid container-xxl text-light p-3 px-xl-4 flex-grow-1">
+        <div class="landingCard position-relative h-100">
           <div class="position-absolute d-flex bottom-0 h-100 w-100 justify-content-center d-none d-md-block">
             <div class="h-100 justify-content-center d-flex">
               <img src="./images/landing-image.png" class="h-100 pt-5" />
@@ -92,7 +92,7 @@
         </div>
       </div>
       <div class="d-flex flex-row text-start align-items-center justify-content-center py-5">
-        <h6 style="font-size: 120px" class="pink-glow me-2">1984</h6>
+        <h6 style="font-size: 110px" class="pink-glow me-2">1984</h6>
         <h4 class="text-grey fwei-400">Curated<br />Exclusive<br />NFTs</h4>
       </div>
       <div class="splide pt-5 d-none d-md-block" id="splide2" role="group" aria-label="Splide Basic HTML Example">
@@ -118,7 +118,7 @@
             Discover the<br />
             advantages
           </h1>
-          <div class="d-flex align-items-end mb-md-4">
+          <div class="d-flex align-items-end mb-md-4 d-none d-md-block">
             <button class="btn pinkButton">Get yours now</button>
           </div>
         </div>
@@ -146,7 +146,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-5 col-xxl-4 mt-md-5">
+        <div class="col-12 col-md-6 col-lg-5 col-xxl-4 mt-md-5 mb-5">
           <div class="d-flex flex-row align-items-center py-2">
             <img src="./images/star.svg" class="me-3 mb-auto" />
             <h4 class="m-0 text-half-grey">Provit sharing form</h4>
@@ -163,29 +163,33 @@
             <img src="./images/star.svg" class="me-3 mb-auto" />
             <h4 class="m-0 text-half-grey">Exclusive perks such as discounts htels, yacht, jets, luxury events</h4>
           </div>
+
+          <div class="d-flex justify-content-center mt-5 d-md-none">
+            <button class="btn pinkButton">Get yours now</button>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="roadmapSection" style="min-height: 80vh">
-      <div class="container-fluid container-xxl text-light px-4 px-md-5 mt-5">
+      <div class="container-fluid container-xxl text-light pb-4 px-lg-5 mt-lg-5">
         <h1 class="display-3 font-berghan text-md-center">Our Vision for the Future</h1>
         <div class="d-flex justify-content-center mt-5 position-relative">
           <h1 class="display-1 position-absolute text-center font-berghan" id="roadmapWord">Roadmap</h1>
 
-          <div class="roadmapCard position-absolute" id="roadmap1">
+          <div class="roadmapCard position-absolute d-flex flex-column justify-content-evenly" id="roadmap1">
             <h4 class="mb-0 text-center text-grey py-md-2 fwei-400">#Phase 1</h4>
             <h1 class="display-1 font-berghan text-pink py-md-2 fwei-400">Whitelist 84 NFT</h1>
             <h4 class="text-grey py-md-2 fwei-400">Berkim unveiled its plan to revolutionize luxury bags at Token 2049 Dubai in April 2024. With 20+ years of experience, Berkim fights counterfeiting and promotes sustainability through blockchain-based Real-World Assets (RWA). The launch featured a whitelist of 84 exclusive NFTs for early supporters.</h4>
           </div>
 
-          <div class="roadmapCard position-absolute" id="roadmap2">
+          <div class="roadmapCard position-absolute d-flex flex-column justify-content-evenly" id="roadmap2">
             <h4 class="mb-0 text-center text-grey py-md-2 fwei-400">#Phase 2</h4>
             <h1 class="display-1 font-berghan text-pink py-md-2 fwei-400">Launch 900 NFT</h1>
             <h4 class="text-grey py-md-2 fwei-400">Berkim is thrilled to launch 900 NFTs to make luxury accessible. We showcased our innovative approach at Token 2049 Singapore in September 2024 and have holders in multiple countries.</h4>
           </div>
 
-          <div class="roadmapCard position-absolute" id="roadmap3">
+          <div class="roadmapCard position-absolute d-flex flex-column justify-content-evenly" id="roadmap3">
             <h4 class="mb-0 text-center text-grey py-md-2 fwei-400">#Phase 3</h4>
             <h1 class="display-1 font-berghan text-pink py-md-2 fwei-400">Launch 1000 NFTs</h1>
             <h4 class="text-grey py-md-2 fwei-400">Berkim is launching 1000 NFTs soon, with new fashion collaborations. We’ll introduce fractionalized ownership of luxury watches. Stay tuned for innovative lifestyle product solutions. "We’re Here for Your Firsts, Every Moment Counts.</h4>
@@ -315,14 +319,25 @@
 
     <div class="w-100 overflow-hidden" style="background-color: rgba(244, 144, 248, 1); max-height: 450px">
       <div class="container-fluid container-xxl px-3 py-3 text-black">
-        <div class="d-flex flex-row justify-content-between px-2">
+        <div class="d-flex flex-column justify-content-between px-2 d-md-none">
+          <div class="d-flex flex-row align-items-center">
+            <h6 class="me-2 fwei-400 mb-0">Follow us on</h6>
+            <a href="https://www.instagram.com/berkim.io"><img class="ms-2" src="./images/insta.svg" width="16px" /></a>
+            <a href="https://x.com/Berkim_io03"><img class="ms-2" src="./images/x.svg" width="16px" /></a>
+          </div>
+          <br />
+          <h6 class="fwei-400">© 2024 Berkim. All rights reserved.</h6>
+        </div>
+
+        <div class="flex-row justify-content-between px-2 d-none d-md-flex">
           <h4 class="fwei-400">© 2024 Berkim. All rights reserved.</h4>
           <div class="d-flex flex-row align-items-center">
             <h4 class="me-2 fwei-400 mb-0">Follow us on</h4>
-            <a href="#"><img class="ms-2" src="./images/insta.svg" width="24px" /></a>
-            <a href="#"><img class="ms-2" src="./images/x.svg" width="24px" /></a>
+            <a href="https://www.instagram.com/berkim.io"><img class="ms-2" src="./images/insta.svg" width="24px" /></a>
+            <a href="https://x.com/Berkim_io03"><img class="ms-2" src="./images/x.svg" width="24px" /></a>
           </div>
         </div>
+
         <div class="display-1 font-berghan footerBerkim">Berkim</div>
       </div>
     </div>
@@ -337,7 +352,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
+    <script defer>
       const splide = new Splide("#splide1", {
         type: "loop",
         drag: false,
@@ -370,41 +385,25 @@
       splide.mount(window.splide.Extensions);
       splide2.mount(window.splide.Extensions);
 
-      window.onload = (event) => {
+      window.addEventListener("load", () => {
         ScrollTrigger.config({
           autoRefreshEvents: "DOMContentLoaded, load, resize",
         });
         gsap.registerPlugin(ScrollTrigger);
 
-        gsap.fromTo(
-          ".nfts-float",
-          { y: 150 },
-          {
-            y: -150,
+        if (window.innerWidth >= 768) {
+          const timeline = gsap.timeline({
             scrollTrigger: {
-              trigger: "#nft-sections",
-              start: "top top",
-              end: "bottom top",
+              trigger: "#section1",
+              start: "0% 0%",
+              end: "200% center",
+              id: "section1",
               scrub: true,
-              markers: true,
-              id: "nftttttttttttttttttttttttt",
+              pin: true,
             },
-            duration: 1,
-          }
-        );
-
-        const timeline = gsap.timeline({
-          scrollTrigger: {
-            trigger: "#section1",
-            start: "top top",
-            end: "+600",
-            id: "section1",
-            scrub: true,
-            pin: true,
-            //   markers: true,
-          },
-        });
-        timeline.fromTo(".landingBerkim", { color: "#454545", textShadow: "unset" }, { color: "#F490F8", textShadow: "0px 4px 16px #ed36b9" });
+          });
+          timeline.fromTo(".landingBerkim", { color: "#454545", textShadow: "unset" }, { color: "#F490F8", textShadow: "0px 4px 16px #ed36b9" });
+        }
 
         const timeline2 = gsap.timeline({
           scrollTrigger: {
@@ -414,11 +413,48 @@
             id: "rrrrr",
             scrub: true,
             pin: true,
-            //  markers: true,
           },
         });
+
         timeline2.fromTo("#roadmapWord", { opacity: 0 }, { opacity: 1 }).fromTo("#roadmap1", { rotate: "12deg", y: 900 }, { rotate: "-6deg", y: 0 }).fromTo("#roadmap2", { rotate: "-8deg", y: 900 }, { rotate: "4deg", y: 0 }).fromTo("#roadmap3", { rotate: "4deg", y: 900 }, { rotate: "-2deg", y: 0 });
-      };
+
+        const timeline3 = gsap.timeline({ scrollTrigger: { trigger: "#nft-sections", start: "top top", end: "bottom top", id: "nfts", scrub: true } });
+
+        timeline3.fromTo("#nft-img-1", { y: 0 }, { y: "-60%" }, "<");
+        timeline3.fromTo("#nft-img-2", { y: 0 }, { y: "-100%" }, "<");
+        timeline3.fromTo("#nft-img-3", { y: 0 }, { y: "-120%" }, "<");
+        timeline3.fromTo("#nft-img-4", { y: 0 }, { y: "-60%" }, "<");
+        timeline3.fromTo("#nft-img-5", { y: 0 }, { y: "-100%" }, "<");
+        timeline3.fromTo("#nft-img-6", { y: 0 }, { y: "-100%" }, "<");
+        timeline3.fromTo("#nft-img-7", { y: 0 }, { y: "-60%" }, "<");
+        timeline3.fromTo("#nft-img-8", { y: 0 }, { y: "-120%" }, "<");
+        timeline3.fromTo("#nft-img-9", { y: 0 }, { y: "-60%" }, "<");
+
+        if ("scrollRestoration" in window.history) {
+          window.history.scrollRestoration = "manual";
+        }
+
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+        ScrollTrigger.refresh();
+
+        setTimeout(() => {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+          ScrollTrigger.refresh();
+        }, 1500);
+
+        window.onbeforeunload = function () {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        };
+      });
     </script>
   </body>
 </html>
